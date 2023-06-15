@@ -1,0 +1,11 @@
+.ll-movie{
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: wrap;
+    background-color: black;
+    padding: 3rem 0rem ;
+    border-bottom: 1px solid white;
+}
+.analyticsheader {
+    height: 90px;
+}

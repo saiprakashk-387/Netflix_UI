@@ -1,0 +1,161 @@
+.main{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+.sidebar{
+    box-shadow: rgba(8, 1, 1, 0.35) 0px 5px 15px;
+    width: 15%;
+    height: 116vh;
+    
+}
+.sidebar-in{
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: 20px;
+    height: 100vh;
+}
+.main-conytent{
+    width: 83%;
+    height: 100vh;
+}
+
+.main-sub-card{
+    border: 1px solid gold;
+    height: 20%;
+    margin: 2%;
+}
+
+/* /////sidebar//// */
+.sidebar-text h1{
+    color: green;
+    font-size: medium;
+}
+.sidebar-img{
+    background-color: rgb(166 166 199);
+    height: 5%;
+    border-radius: 10px;
+    margin-top: 20px;
+    width: 100%;
+display: flex;
+padding: 6px;
+}
+.sidebar-list{
+    /* background-color: aqua; */
+    height: fit-content;
+    margin-top: 20px;
+}
+.sidebar-list h1{
+    color: black;
+ font-size: 20px;
+ font-weight: bold;
+}
+.sidebar-list li{
+    list-style: none;
+    padding: 8px;
+    margin-left: 5px;
+    color: darkgrey;
+}
+.sidebar-img h1{
+    font-size: 15px;
+    text-align: center;
+    margin: auto;
+}
+.sidebar-img img{
+    background-color: #dbdbce;
+    width: 30%;
+    border-radius: 36px;
+}
+/* **head** */
+.head1{
+    width: 50%;
+}
+.head1 input{
+    width: 80%;
+    border-radius: 20px;
+    height: 40px;
+    margin: 16px;
+    box-shadow: rgba(8, 1, 1, 0.35) 0px 5px 15px;
+}
+.head2{
+    height: 40px;
+    margin: 20px;
+}
+.head2 li{
+list-style: none;
+width: 50%;
+display: inline;
+padding-inline: 10px;
+text-align: end;
+height: 40px;
+    margin: 16px;
+}
+.head{
+    height: 10%;
+    width: 100%;
+    display: flex;
+}
+/* ///charts1/// */
+.main-card{
+    width: 100%;
+    /* border: 1px solid gold; */
+    height: 50%;
+    margin: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card1{
+    width: 20%;
+    height: 100%;
+    box-shadow: rgba(8, 1, 1, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+ }
+.card2{
+    width: 65%;
+    height: 100%;
+    box-shadow: rgba(8, 1, 1, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+}
+/* //indicators/// */
+.main-indicators{
+    /* border: 1px solid rgb(217, 107, 38); */
+    height: 30%;
+    margin: 2%;
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.indicators1{
+    width: 50%;
+    height: 100%;
+}
+.indicators2{
+    width: 30%;
+    height: 100%;
+}
+/* ////cards3333// */
+.main-charts{
+    height: 15%;
+    margin: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chartsm1{
+    width:28%;
+    box-shadow: rgba(8, 1, 1, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.chartsm1s{
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+}
+.chartsm1ss{
+    width: 50%;
+    text-align: center;
+    font-size: larger;
+}
